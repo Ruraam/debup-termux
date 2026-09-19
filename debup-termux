@@ -116,6 +116,7 @@ return 0
 }
 
 term_set_storage
+
 if [ "$IS_TERMUX" = true ]; then
 check_termux_permissions
 fi
