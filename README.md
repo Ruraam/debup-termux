@@ -1,6 +1,6 @@
 # debup-termux 📱⚡
 
-> **A specialized Termux port of[debup](https://github.com/Ruvyrom/debup)**.
+> **A specialized Termux port of [debup](https://github.com/Ruvyrom/debup)**.
 > Install, search, and manageGitHub release `.deb` packages directly inside Termux on Android — **without root and without proot/chroot**.
 
 ---
