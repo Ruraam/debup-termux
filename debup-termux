@@ -78,7 +78,7 @@ echo -e "${GREEN}[✓] Write permission in $PREFIX/bin OK.${NC}"
 fi
 
 if [[ ":$PATH:" != *":$PREFIX/bin:"* ]]; then
-echo -e "${YELLOW}[!] $PREFIX/bin is not in your PATH.${NC}"
+echo -e ".   ${YELLOW}[!] $PREFIX/bin is not in your PATH.${NC}"
 echo -e "    Add this to your ~/.bashrc :"
 echo -e "    ${GRAY}export PATH=\"\$PREFIX/bin:\$PATH\"${NC}"
 ((issues++))
